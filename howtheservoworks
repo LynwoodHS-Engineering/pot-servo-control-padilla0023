@@ -1,0 +1,4 @@
+The potentiometer´s value is read from the analog pin (A0), producing a number between 0 and 1023.
+This value is mapped to a range of 0 to 180 to control the servo.
+The servo´s position is updated based on the potentiometer´s position.
+Both the potentiometer value and the servo position are printed to the Serial Monitor in real-time.
